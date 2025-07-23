@@ -1,8 +1,5 @@
-/**
- * Custom blocks
- */
 //% weight=100 color=#0fbc11 icon=""
-namespace custom {
+namespace scrollFont {
     //% block
     export function showNumber(n: number,b:number): void {
         let font: number[] = [488162862,    // 0
