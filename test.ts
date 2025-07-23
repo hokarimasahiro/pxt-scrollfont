@@ -1,6 +1,6 @@
 basic.forever(function () {
-    for (let カウンター = 0; カウンター <= 999; カウンター++) {
-        custom.showNumber(カウンター, 255)
+    for (let c = 0; c <= 999; c++) {
+        custom.showNumber(c, 255)
         scrollbit.show()
         basic.pause(100)
     }
