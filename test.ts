@@ -1,5 +1,5 @@
-for (let c = 0; c <= 999; c++) {
-    scrollFont.showNumber(c, 255)
+for (let i = 0; i < 1000; i++) {
+    scrollFont.showNumber(i, 128)
     scrollbit.show()
-    basic.pause(100)
+    basic.pause(50)
 }
